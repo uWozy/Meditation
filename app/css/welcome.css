@@ -13,8 +13,8 @@ html::-webkit-scrollbar {
 .app-inner {
     background-image: url("../media/welcome-bg.svg");
     background-repeat: no-repeat;
-    background-position: bottom;
-    height: 100vh;
+    background-position: center bottom;
+    height: 100%;
     width: 100%;
     
 }
