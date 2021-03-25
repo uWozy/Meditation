@@ -15,5 +15,74 @@ html::-webkit-scrollbar {
     width: 100%;
 }
 
+.tittle-text {
+    padding-top: 76px;
+    margin-bottom: 30px;
+}
+
+.tittle-text .head-text {
+    font-size: 28px;
+    line-height: 38px;
+    color: #3F414E;
+    font-weight: bold;
+}
+
+.tittle-text .text {
+    font-size: 28px;
+    line-height: 38px;
+    color: #3F414E;
+    font-weight: 300;
+}
+
+.tittle-text .topic-text {
+    font-weight: 300;
+    font-size: 20px;
+    color: #A1A4B2;
+}
+
+.relax {
+    background-color:#808AFF;
+    height: 210px;
+    width: 176px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.relax-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.relax-text {
+    color: #FFECCC;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.work {
+    background-color: #FA6E5A;
+    height: 176px;
+    width: 167px;
+    border-radius: 10px;
+}
+
+.work-icon {
+    margin: 0 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.work-text {
+    color: #FEF9F3;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+
+
 
 
