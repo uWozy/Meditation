@@ -129,10 +129,10 @@ html::-webkit-scrollbar {
 .work-icon {
     margin: 0 20px;
     margin-bottom: 10px;
-    margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10px;
 }
 
 .work-text {
@@ -150,6 +150,7 @@ html::-webkit-scrollbar {
     max-height: 210px;
     max-width: 167px;
     border-radius: 10px;
+    margin-bottom: 20px;
   
 }
 
@@ -158,6 +159,7 @@ html::-webkit-scrollbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 15px;
 }
 
 .anxiety-text {
@@ -168,6 +170,36 @@ html::-webkit-scrollbar {
     
 }
 
+.sleep {
+    background-color: #4E5567;
+    max-width: 167px;
+    max-height: 176px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sleep-icon {
+    margin-bottom: -3px;
+    padding-top: 10px;
+
+}
+
+.sleep-background-color {
+    background-color: #3F414E;
+    padding-bottom:42px ;
+    
+}
+
+.sleep-text {
+color: #EBEAEC;
+background-color: #3F414E;
+font-weight: bold;
+font-size: 18px;
+padding-left: 15px;
+padding-bottom:20px;
+border-radius:0 0 10px 10px ;
+}
 
 
 
