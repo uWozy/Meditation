@@ -42,18 +42,20 @@ html::-webkit-scrollbar {
 
 .relax {
     background-color:#808AFF;
-    height: 210px;
-    width: 176px;
+    height: 100%;
+    width: 100%;
+    max-height: 210px;
+    max-width: 176px;
     border-radius: 10px;
     margin-bottom: 21px;
    
 }
 
 .relax-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 37px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .relax-text {
@@ -63,17 +65,74 @@ html::-webkit-scrollbar {
     margin-left: 16px;
 }
 
+.happy {
+    border-radius: 10px;
+    max-height: 167px;
+    max-width: 178px;
+    height: 100%;
+    width: 100%;
+    background-color: #FEB18F;
+    margin-bottom: 20px;
+}
+
+.happy-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.happy-text {
+    color: #3F414E;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 16px;
+    width: 131px;
+    
+}
+
+.hill {
+    height: 100%;
+    width: 100%;
+    max-height: 210px;
+    max-width: 176px;
+    border-radius: 10px;
+    background-color: #6CB28E;
+}
+
+.hill-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+.hill-text {
+    color: #FFECCC;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 16px;
+    width: 91px;
+
+}
+
+
 .work {
     background-color: #FA6E5A;
-    height: 176px;
-    width: 167px;
+    max-width: 167px;
+    max-height: 176px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .work-icon {
     margin: 0 20px;
     margin-bottom: 10px;
     margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .work-text {
@@ -83,20 +142,29 @@ html::-webkit-scrollbar {
     margin-left: 16px;
 }
 
-.happy {
+
+.anxiety {
+    background-color: #FFCF86;
+    height: 100%;
+    width: 100%;
+    max-height: 210px;
+    max-width: 167px;
     border-radius: 10px;
-    height: 167px;
-    width: 178px;
-    background-color: #FEB18F;
-    margin-bottom: 4px;
+  
 }
 
-.happy-text {
+.anxiety-icon {
+    margin-bottom: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.anxiety-text {
     color: #3F414E;
     font-size: 18px;
     font-weight: bold;
     margin-left: 16px;
-    width: 131px;
     
 }
 
