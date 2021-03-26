@@ -45,7 +45,8 @@ html::-webkit-scrollbar {
     height: 210px;
     width: 176px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-bottom: 21px;
+   
 }
 
 .relax-icon {
@@ -80,6 +81,23 @@ html::-webkit-scrollbar {
     font-size: 18px;
     font-weight: bold;
     margin-left: 16px;
+}
+
+.happy {
+    border-radius: 10px;
+    height: 167px;
+    width: 178px;
+    background-color: #FEB18F;
+    margin-bottom: 4px;
+}
+
+.happy-text {
+    color: #3F414E;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 16px;
+    width: 131px;
+    
 }
 
 
