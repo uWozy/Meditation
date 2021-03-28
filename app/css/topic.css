@@ -62,7 +62,8 @@ html::-webkit-scrollbar {
     color: #FFECCC;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 16px;
+    padding-left: 16px;
+    padding-right: 8px;
 }
 
 .happy {
@@ -155,7 +156,7 @@ html::-webkit-scrollbar {
 }
 
 .anxiety-icon {
-    margin-bottom: 35px;
+    margin-bottom:calc(40% - 35px);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -171,7 +172,7 @@ html::-webkit-scrollbar {
 }
 
 .sleep {
-    background-color: #4E5567;
+    background-image: linear-gradient( rgb(78,85,103,1) ,#3F414E, #3F414E, #3F414E);
     max-width: 167px;
     max-height: 176px;
     height: 100%;
@@ -186,14 +187,14 @@ html::-webkit-scrollbar {
 }
 
 .sleep-background-color {
-    background-color: #3F414E;
+   
     padding-bottom:42px ;
     
 }
 
 .sleep-text {
 color: #EBEAEC;
-background-color: #3F414E;
+/*background-color: #3F414E;*/
 font-weight: bold;
 font-size: 18px;
 padding-left: 15px;
