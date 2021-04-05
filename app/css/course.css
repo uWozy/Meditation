@@ -6,6 +6,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 32px;
 }
 
 .back-button {
@@ -20,3 +23,106 @@
 .back-button:active {
   transform: translateY(1px);    
 }
+
+.functional-buttons {
+  margin-top: 50px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.functional-button {
+  height: 55px;
+  width: 55px;
+  background-color: rgb(3,23,76,0.5);
+  border-radius: 38px;
+  border: none;
+}
+
+.functional-button:active {
+  transform: translateY(1px);    
+}
+
+.tittle-texts {
+  margin: 0 8px;
+  margin-bottom: 30px !important;
+}
+
+.tittle-texts .head-text {
+  color: #3F414E;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 108.1%;
+}
+
+.tittle-texts .short-text {
+  letter-spacing: 0.05em;
+  color: #A1A4B2;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 108.1%;
+}
+
+.tittle-texts .text {
+  color: #A1A4B2;
+  font-size: 16px;
+  line-height: 108.1%;
+}
+
+.statistics {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-right: 76px;
+  margin-left: 8px;
+}
+
+.statistics .like {
+  display: flex;
+  align-items: center;
+  
+}
+
+.statistics .total-listen {
+  display: flex;
+  align-items: center;
+}
+
+.like img {
+  margin-right:10px ;
+}
+
+.like .statistic {
+  font-size: 14px;
+line-height: 108.1%;
+text-transform: capitalize;
+color: #A1A4B2;
+}
+
+.like .text {
+  font-size: 14px;
+line-height: 108.1%;
+text-transform: capitalize;
+color: #A1A4B2;
+}
+
+.total-listen img {
+  margin-right:10px ;
+}
+
+.total-listen .statistic {
+  font-size: 14px;
+line-height: 108.1%;
+text-transform: capitalize;
+color: #A1A4B2;
+}
+
+.total-listen .text {
+  font-size: 14px;
+line-height: 108.1%;
+text-transform: capitalize;
+color: #A1A4B2;
+}
+
+
+
