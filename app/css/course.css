@@ -78,6 +78,13 @@
   margin-bottom: 40px;
 }
 
+@media (max-width:400px) {
+
+  .statistics {
+    margin-right: 38px !important;
+  }
+}
+ 
 .statistics .like {
   display: flex;
   align-items: center;
@@ -184,6 +191,12 @@ color: #A1A4B2;
   color: #A1A4B2;
   margin-right: 94px;
   padding-bottom: 18px;
+}
+
+@media (max-width:400px) {
+  .voice-options .female-voice {
+    margin-right: 48px !important;
+  }
 }
 
 .list-item {
