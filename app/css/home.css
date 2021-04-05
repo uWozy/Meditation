@@ -389,3 +389,29 @@ color: #3F414E;
   align-items: center;
   color: #8E97FD !important;
 }
+
+
+.changeable-menu {
+
+}
+
+.menu-tittle {
+  font-weight: bold;
+  line-height: 108.1%;
+  font-size: 20px;
+  color: #3F414E;
+}
+
+.menu-tittle .male-voice {
+  font-size: 16px;
+  line-height: 108.1%;
+  letter-spacing: 0.05em;
+  color: #A1A4B2;
+}
+
+.menu-tittle .female-voice {
+  font-size: 16px;
+  line-height: 108.1%;
+  letter-spacing: 0.05em;
+  color: #A1A4B2;
+}
