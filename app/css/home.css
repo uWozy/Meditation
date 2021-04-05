@@ -57,11 +57,6 @@ body {
   width: 100%;
 }
 
-.group-button {
-  text-decoration: none;
-  
-}
-
 .blue-box {
   background-color:#8E97FD ;
   height: 210px;
@@ -259,13 +254,12 @@ body {
 /**/
 .private-menu {
   margin-bottom: 80px;
-
+  margin-left: 20px;
 }
-.private-menu .text {
+.private-menu .menu-text {
   font-size: 24px;
   color: #3F414E;
   margin-bottom: 20px;
-  margin-left: 8px;
   margin-right: 8px;
 }
 /*Not*/
@@ -278,6 +272,10 @@ body {
 
 .green-card {
   margin: 0 10px;
+}
+
+.first-card {
+  margin-left: 0 !important;
 }
 
 .green-card .card-icon img {
@@ -347,7 +345,7 @@ color: #3F414E;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 18px;
 }
 
 @media (max-width:375px) {
@@ -388,30 +386,4 @@ color: #3F414E;
   justify-content: center;
   align-items: center;
   color: #8E97FD !important;
-}
-
-
-.changeable-menu {
-
-}
-
-.menu-tittle {
-  font-weight: bold;
-  line-height: 108.1%;
-  font-size: 20px;
-  color: #3F414E;
-}
-
-.menu-tittle .male-voice {
-  font-size: 16px;
-  line-height: 108.1%;
-  letter-spacing: 0.05em;
-  color: #A1A4B2;
-}
-
-.menu-tittle .female-voice {
-  font-size: 16px;
-  line-height: 108.1%;
-  letter-spacing: 0.05em;
-  color: #A1A4B2;
 }
