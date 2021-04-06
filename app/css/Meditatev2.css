@@ -138,10 +138,57 @@ html::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   height: 210px;
-  width: 100%;
-  max-width: 176px;
+  
+  width: 176px;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
 }
+
+.orange-box {
+  background-image: url("../media/orangebg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 167px;
+  
+  width: 176px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.yellow-box {
+  background-image: url("../media/yellowbg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 149px;
+  
+  width: 176px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.green-box {
+  background-image: url("../media/greenbg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 210px;
+  
+  width: 176px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
 /*
 .box-text::before {
   content:"";
@@ -156,41 +203,22 @@ html::-webkit-scrollbar {
 }
 */
 .box-text {
-  position: relative;
+  /*position: relative;*/
   font-weight: bold;
   font-size: 18px;
   line-height: 108.1%;
   color: #FFFFFF;
+  padding-bottom: 16px;
 
 }
 
-.orange-box {
-  background-image: url("../media/orangebg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 167px;
-  width: 100%;
-  max-width: 176px;
-  border-radius: 10px;
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
-.yellow-box {
-  background-image: url("../media/yellowbg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 149px;
-  width: 100%;
-  max-width: 176px;
-  border-radius: 10px;
+.columns {
+  display: flex;
+  justify-content:space-between;
+  margin: 0 6px;
 }
-
-.green-box {
-  background-image: url("../media/greenbg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 210px;
-  width: 100%;
-  max-width: 176px;
-  border-radius: 10px;
-}
-
