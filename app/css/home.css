@@ -387,3 +387,12 @@ color: #3F414E;
   align-items: center;
   color: #8E97FD !important;
 }
+
+
+.page-passage {
+  text-decoration:none ;
+}
+
+.page-passage .nav-icon:active {
+  transform: translateY(1px)
+}
