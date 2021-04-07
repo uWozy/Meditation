@@ -35,11 +35,15 @@ html::-webkit-scrollbar {
 
 .horizontal-scroll-menu {
   display: flex;
-  overflow: hidden;
   overflow: auto;
   white-space: nowrap;
-  height: 100px;
   margin-bottom: 30px;
+  height: 110px;
+}
+
+.horizontal-scroll-menu a {
+  display: inline-block;
+  
 }
 
 .menu-item {
@@ -133,13 +137,27 @@ html::-webkit-scrollbar {
   transform: translateY(1px);
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  margin: 0 8px;
+}
+
+.columns {
+  display: flex;
+  justify-content:space-between;
+  margin: 0 6px;
+}
+
 .blue-box {
   background-image: url("../media/bluebg.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 210px;
-  
-  width: 176px;
+  height: 210px !important;
+  max-width: 176px;
+  width: 100%;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -152,8 +170,8 @@ html::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   height: 167px;
-  
-  width: 176px;
+  width: 100%;
+  max-width: 176px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -164,10 +182,10 @@ html::-webkit-scrollbar {
 .yellow-box {
   background-image: url("../media/yellowbg.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 149px;
-  
-  width: 176px;
+  max-height: 149px;
+  height: 100%;
+  width: 100%;
+  max-width: 176px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -180,8 +198,8 @@ html::-webkit-scrollbar {
   background-repeat: no-repeat;
   background-size: cover;
   height: 210px;
-  
-  width: 176px;
+  width: 100%;
+  max-width: 176px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -209,19 +227,17 @@ html::-webkit-scrollbar {
   line-height: 108.1%;
   color: #FFFFFF;
   padding-bottom: 16px;
-
+  word-wrap: break-word;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
+@media (max-width:330px) {
+  .box-text {
+    text-align: center;
+    max-width: 112px;
+  }
 }
 
-.columns {
-  display: flex;
-  justify-content:space-between;
-  margin: 0 6px;
-}
+
 
 .app-navbar {
   height: 98px;
